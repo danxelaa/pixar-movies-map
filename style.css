@@ -1,8 +1,35 @@
 /*
     Daniela's CSS File
-    2015
 */
-  body { margin:0; padding:0; }
-  #container { position:relative; margin: 0px auto; width: 80%; }
-  #map { position:relative; height: 500px; width:100%; }
-  .popupimage { width: 100px; }
+body { 
+  margin: auto; 
+  padding: 0;
+}
+
+#title {
+  text-align: center;
+}
+  
+#container { 
+  position:relative; 
+  margin: auto; 
+  width: 0%; 
+}
+  
+#map { 
+  position: absolute;
+  height: 60%; 
+  width: 100%;
+}
+
+.leaflet-popup-content {
+  text-align: center;
+}
+
+.popupimage { 
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
